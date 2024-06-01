@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$fontFamily1: "League Spartan", sans-serif;
+$fontFamily2:"Poppins", sans-serif;
+$fontFamily3:"Inter", sans-serif;
+
+body{
+    background-color: #FFF8F0;
+    font-family:$fontFamily3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: $fontFamily1;
+    font-size: 48px;
+    font-weight: 700;
+    color: #190D37;  
+    margin: 0;
+    line-height: 50px; 
+}
+h2{
+    font-family: $fontFamily2;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #190D37;
+    margin: 0;
+}
+.bigtext{
+    color:#331E6A;
+    font-family: $fontFamily2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#heroSection{
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+    #heroText{
+        padding: 32px 20px 32px 0px;
+        width: 50%;
+        margin-left: 200px;
+        .smallText{
+            font-family: $fontFamily3;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.06px;
+            text-align: left;
+            color: #000;
+        }
+        #hi_name{
+            margin-top: 52px;
+            font-family: $fontFamily3;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.36px;
+            text-align: left;
+
+        }
+        #title-hero{
+            max-width: 520px;
+            margin-top: 10px;
+            display: flex;
+            p{
+                font-family: $fontFamily1;
+                font-size: 48px;
+                font-weight: 400;
+                color: #190D37;  
+                line-height: 50px;
+                margin: 0;
+                padding: 0%;
+
+            }
+        }
+        #subtitleHero{
+            font-family: $fontFamily2;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: left;
+            max-width: 520px;
+            margin: 30px 0px 20px 0px;
+        }
+        #HeroButton{
+            button{
+                font-family: $fontFamily3;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19.36px;
+                text-align: left;
+                padding: 13px 24px 13px 24px;
+                background-color: #2F2F2F;
+                border-radius: 4px;
+                color: #FFFFFF;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    #heroImageWrapper{
+        width: 50%;
+        #heroImage{
+            width: 100%;
+        }
+    }
+}
+.boxSec{
+    margin: 98px 0px 98px 0px;
+    .boxTxt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxCtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        #box{
+            background-color: #FFFFFF;
+            width: 340px;
+            height: 291px;
+            margin: 0px 20px 0px 20px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 6px 2px 25px -9px #0000001A;
+            h2{
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                color: #000;
+            }
+            p{
+                font-family: $fontFamily3;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #55206D;
+
+            }
+        }
+    }
+}
+#smalltxt{
+    color: #2858FF;
+    font-family: $fontFamily2;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 18px;
+    text-align: center;
+}
+#biggestTxt{
+    font-family: $fontFamily1;
+    font-size: 44px;
+    font-weight: 700;
+    max-width: 800px;
+    line-height: 40px;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    color: #000;
+}
+#medTxt{
+    max-width: 750px;
+    font-family: $fontFamily2;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+    color: #190D37;
+    text-align: center;
+}
+.projectSec{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+    .projectCtn{
+        max-width: 1060px;
+        #project{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px 20px 0px;
+            .projectBox{
+                background-color: #19ACFF;
+                border-radius: 10px;
+                h1{
+                    font-family: $fontFamily2;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 72px;
+                    text-align: center;
+                    padding: 44px 47px 44px 47px;
+                }
+            }
+            .second{
+                background-color: #FFE819;
+            }
+            .third{
+                background-color: #FF1919;
+            }
+            #projectTxt{
+                margin-left: 20px;
+                h2{
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    text-align: left;
+                    color: #291854;
+                }
+                h3{
+                    font-family: $fontFamily3;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #55206D;
+                }
+                a{
+                    text-decoration: none;
+                    color: #6A87A3;
+                    font-family: $fontFamily3;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16.94px;
+                    margin: 8px 0px 8px 0px;
+                    text-align: left;
+                    .fa-solid{
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer{
+    background-color: #000;
+    p{
+        padding: 20px 0px 20px 0px;
+        margin: 0;
+        color: #fff;
+        font-family: $fontFamily2;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+
+    }
+}
